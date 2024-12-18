@@ -1,0 +1,22 @@
+{
+    "name": "festival-musica",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "sass": "sass --watch src/scss:dist/css",
+        "dev": "gulp dev"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "gulp": "^5.0.0",
+        "gulp-sass": "^6.0.0",
+        "sass": "^1.83.0"
+    },
+    "dependencies": {
+        "modern-normalize": "^3.0.1"
+    }
+}
