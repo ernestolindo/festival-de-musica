@@ -13,6 +13,47 @@
         />
     </head>
     <body>
-        <div class="container"><h1>Hola mundo con SASS</h1></div>
+        <header class="header">
+            <div class="contenedor contenido-header">
+                <h1>Techno and EDM Festival</h1>
+
+                <nav class="navegacion-principal">
+                    <a href="#">Lineup</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Tickets</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="video">
+            <div class="overlay">
+                <div class="contenedor contenido-video">
+                    <h2>Techno & EDM Festival</h2>
+                    <p>Julio 2026, CDMX</p>
+                </div>
+            </div>
+            <video autoplay muted loop>
+                <source src="video/dj.mp4" type="video/mp4" />
+                <source src="video/dj.ogv" type="video/ogg" />
+                <source src="video/dj.webm" type="video/webm" />
+            </video>
+        </div>
+
+        <section class="sobre-festival">
+            <div class="imagen">
+                <img src="./src/img/imagen_dj.jpg" alt="Sobre festival" />
+            </div>
+
+            <div class="contenido-festival">
+                <h2>Techno & EDM Festival</h2>
+                <p class="fecha">Julio 2026, CDMX</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae iusto
+                    fuga aliquid delectus nobis ratione accusantium voluptatibus adipisci tempora
+                    incidunt beatae, tenetur, necessitatibus numquam nemo saepe aperiam officiis
+                    voluptatem.
+                </p>
+            </div>
+        </section>
     </body>
 </html>
