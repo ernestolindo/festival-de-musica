@@ -2,23 +2,21 @@
 @use "base/mixins" as m;
 
 .sobre-festival {
-    @include m.contenedor;
+  @include m.contenedor;
 
-    @include m.tablet {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5rem;
-    }
+  @include m.tablet {
+    @include m.grid();
+  }
 }
 
 .contenido-festival {
-    margin-top: 5rem;
+  margin-top: 5rem;
 
-    h2 {
-        margin-bottom: 2rem;
-    }
-    .fecha {
-        color: v.$verde;
-        font-weight: 700;
-    }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  .fecha {
+    color: v.$verde;
+    font-weight: 700;
+  }
 }
